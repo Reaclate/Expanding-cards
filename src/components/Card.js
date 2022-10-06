@@ -1,5 +1,10 @@
 import React from "react";
-import "../index.css";
+import img1 from "../assets/images/1.jpg";
+import img2 from "../assets/images/2.jpg";
+import img3 from "../assets/images/3.jpg";
+import img4 from "../assets/images/4.jpg";
+import img5 from "../assets/images/5.jpg";
+import img6 from "../assets/images/6.jpg";
 
 export default function Card() {
   return (
@@ -9,20 +14,7 @@ export default function Card() {
         <div className="col-md-4">
           <div className="card border-0 shadow-lg p-3 mb-5 bg-white rounded">
             <div className="card-body">
-              <h3 className="card-title">Sole Proprietor</h3>
-              <h1 className="text-primary mt-3 mb-1">$19.99</h1>
-              <span> Per Month </span>
-              <p className="card-text mt-4">100 invoices</p>
-              <p className="card-text">Custom scripting & scheduling</p>
-              <p className="card-text mb-5">
-                Payment & accounting software integration
-              </p>
-              <a
-                href="#"
-                className="bg-primary text-white text-decoration-none p-2"
-              >
-                Start Free Trial
-              </a>
+             <img src="" alt="support" />
             </div>
           </div>
         </div>
